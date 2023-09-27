@@ -30,7 +30,7 @@
                         <td>{{ $user->gpa }}</td>
                         <td>
                             @if ($user->portrait)
-                                <img src="{{ asset('storage/images/' . $user->portrait) }}" alt="{{ $user->name }}" width="100">
+                                <img src="{{ asset('storage/images/' . $user['portrait']) }}" alt="{{ $user->name }}" width="100">
                             @else
                                 No Image
                             @endif

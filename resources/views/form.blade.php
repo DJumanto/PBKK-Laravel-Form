@@ -43,7 +43,7 @@
         </div>
         <div class="form-group">
             <label for="gpa">GPA:</label>
-            <input type="number" class="form-control" id="gpa" name="gpa" min="2.50" max="99.99" required>
+            <input type="number" class="form-control" id="gpa" name="gpa" required>
         </div>
         <div class="form-group">
             <label for="portrait">Self Portrait Image:</label>
